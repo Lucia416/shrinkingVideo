@@ -54,9 +54,9 @@ a {
 .video{
   display: block;
   margin: 20px auto;
-  height: 220px;
   width: 80%;
-  transition: .5s ease-in-out;
+  transition: .5s linear;
+  transition-delay: 1s;
 }
  .title{
    color:black;
@@ -142,9 +142,9 @@ button:focus {
   .video{
     display: block;
     margin: 20px auto;
-    height: 220px;
+    height: 300px;
     width: 80%;
-    transition: .5s ease-in-out;
+    transition: .5s linear;
   }
 
 }
